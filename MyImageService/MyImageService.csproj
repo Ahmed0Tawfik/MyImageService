@@ -4,10 +4,26 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+	  <PackageId>Ahmed0Tawfik.Services.Images</PackageId>
+	  <Version>1.0.0</Version>
+	  <Authors>Ahmed Tawfik</Authors>
+	  <Product>Image Service</Product>
+	  <Description>Pure Simple Image Service For uploading images to the server</Description>
+	  <PackageTags>Image Service</PackageTags>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <PackageIcon>Icon.png</PackageIcon>
+	  <PackageTags>Images-Files-Services</PackageTags>
+	  <RepositoryType>git</RepositoryType>
+	  <RepositoryUrl>https://github.com/Ahmed0Tawfik/MyImageService</RepositoryUrl>
+	  <PackageProjectUrl>https://github.com/Ahmed0Tawfik/MyImageService</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
+	  <None Include="Icon.png" Pack="True" PackagePath="Icon.png"></None>
+	  <None Include="README.md" Pack="True" PackagePath="README.md"></None>
+	  <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.2" />
   </ItemGroup>
 
 </Project>
