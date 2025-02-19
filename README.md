@@ -9,6 +9,20 @@ MyImageService is a simple .NET Core service for handling image uploads and dele
 - Generate accessible URLs for stored images.
 
 ## Installation
+### Using NuGet Package
+You can install the package via NuGet Package Manager:
+
+```sh
+Install-Package Ahmed0Tawfik.Services.Images
+```
+
+Or using .NET CLI:
+
+```sh
+dotnet add package Ahmed0Tawfik.Services.Images
+```
+
+### Manual Installation
 1. Install the package (if applicable) or add the service to your project.
 2. Register the service in your `Startup.cs` or `Program.cs` file.
 
